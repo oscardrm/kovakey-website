@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kovakey-web",
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": ["-c", "PATH=$HOME/.nvm/versions/node/v26.13.1/bin:$PATH exec node node_modules/vite/bin/vite.js --port 5183 --strictPort"],
+      "port": 5183
+    }
+  ]
+}
