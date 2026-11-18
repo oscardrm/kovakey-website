@@ -310,5 +310,7 @@ export const en: Content = {
     tagline: 'A local-first, zero-knowledge password manager.',
     noTracking: 'This site uses no cookies and no trackers.',
     rights: 'KovaKey',
+    privacy: 'Privacy policy',
+    privacyHref: '/privacy',
   },
 }

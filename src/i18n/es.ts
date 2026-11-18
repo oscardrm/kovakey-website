@@ -308,6 +308,8 @@ export const es = {
     tagline: 'Gestor de contraseñas local-first y de conocimiento cero.',
     noTracking: 'Este sitio no usa cookies ni rastreadores.',
     rights: 'KovaKey',
+    privacy: 'Política de privacidad',
+    privacyHref: '/es/privacidad',
   },
 }
 

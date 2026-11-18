@@ -18,6 +18,7 @@ const year = new Date().getFullYear()
     <div class="wrap base">
       <p><b>KovaKey</b> {{ t.footer.tagline }}</p>
       <p>{{ t.footer.noTracking }}</p>
+      <p><RouterLink class="privacy" :to="t.footer.privacyHref">{{ t.footer.privacy }}</RouterLink></p>
       <p>© {{ year }} {{ t.footer.rights }}</p>
     </div>
   </footer>
@@ -52,6 +53,13 @@ const year = new Date().getFullYear()
   border-top: 1px solid var(--line-dark);
   font-size: 0.92rem;
   color: var(--on-dark-soft);
+}
+.privacy {
+  color: var(--on-dark-soft);
+  text-underline-offset: 3px;
+}
+.privacy:hover {
+  color: var(--on-dark);
 }
 .base b {
   color: var(--on-dark);
